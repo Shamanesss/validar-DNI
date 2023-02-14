@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Validar Dni</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Introduce un DNI</h1>
+    <input class="input" type="text" id=name name="dni"  pattern="[0-9]{8}[A-Z]{1}" title="Debes poner 8 números y una letra mayuscula" minlength="9" maxlength="9" />
+    
+    <button class="button" id="button"type="button">Comprobar</button>
+</div>
+<script src="custom.js"></script>
+</body>
+</html>
